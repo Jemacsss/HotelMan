@@ -6,3 +6,13 @@ C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-win
 C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AssemblyInfo.vb
 C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.vbproj.CoreCompileInputs.cache
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.vbproj.AssemblyReference.cache
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AdminForm.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.LoginForm.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.ManageStaff.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.vbproj.GenerateResource.cache
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AssemblyInfo.vb
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.vbproj.CoreCompileInputs.cache
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.sourcelink.json

@@ -27,7 +27,7 @@ Partial Class LoginForm
         Label2 = New Label()
         Label3 = New Label()
         txtPassword = New TextBox()
-        Button1 = New Button()
+        btnlogin = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -50,7 +50,7 @@ Partial Class LoginForm
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Lucida Sans", 15.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Lucida Sans", 15F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.Location = New Point(203, 155)
         Label2.Name = "Label2"
         Label2.Size = New Size(119, 23)
@@ -60,7 +60,7 @@ Partial Class LoginForm
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Lucida Sans", 15.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Font = New Font("Lucida Sans", 15F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.Location = New Point(208, 200)
         Label3.Name = "Label3"
         Label3.Size = New Size(114, 23)
@@ -74,22 +74,22 @@ Partial Class LoginForm
         txtPassword.Size = New Size(134, 23)
         txtPassword.TabIndex = 4
         ' 
-        ' Button1
+        ' btnlogin
         ' 
-        Button1.Font = New Font("Lucida Sans", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(373, 257)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(100, 35)
-        Button1.TabIndex = 5
-        Button1.Text = "Log in"
-        Button1.UseVisualStyleBackColor = True
+        btnlogin.Font = New Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnlogin.Location = New Point(339, 255)
+        btnlogin.Name = "btnlogin"
+        btnlogin.Size = New Size(100, 35)
+        btnlogin.TabIndex = 5
+        btnlogin.Text = "Log in"
+        btnlogin.UseVisualStyleBackColor = True
         ' 
         ' LoginForm
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(700, 365)
-        Controls.Add(Button1)
+        Controls.Add(btnlogin)
         Controls.Add(txtPassword)
         Controls.Add(Label3)
         Controls.Add(Label2)
@@ -106,6 +106,6 @@ Partial Class LoginForm
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents txtPassword As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnlogin As Button
 
 End Class
