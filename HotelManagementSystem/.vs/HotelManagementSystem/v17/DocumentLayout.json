@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|c:\\users\\user\\desktop\\hotelmanagement\\hotelmanagementsystem\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|solutionrelative:loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|c:\\users\\user\\desktop\\hotelmanagement\\hotelmanagementsystem\\adminform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|solutionrelative:adminform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|c:\\users\\user\\desktop\\hotelmanagement\\hotelmanagementsystem\\managestaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|solutionrelative:managestaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|c:\\users\\user\\desktop\\hotelmanagement\\hotelmanagementsystem\\adminform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D317103E-8CD4-4147-8ADE-91DAD92FA2FA}|HotelManagementSystem.vbproj|solutionrelative:adminform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageStaff.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\ManageStaff.vb",
+              "RelativeDocumentMoniker": "ManageStaff.vb",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\ManageStaff.vb [Design]",
+              "RelativeToolTip": "ManageStaff.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-28T15:24:25.494Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminForm.vb",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\AdminForm.vb",
+              "RelativeDocumentMoniker": "AdminForm.vb",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\AdminForm.vb*",
+              "RelativeToolTip": "AdminForm.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-28T14:54:33.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\AdminForm.vb",
+              "RelativeDocumentMoniker": "AdminForm.vb",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\AdminForm.vb [Design]*",
+              "RelativeToolTip": "AdminForm.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-28T14:45:28.592Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\LoginForm.vb",
+              "RelativeDocumentMoniker": "LoginForm.vb",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HotelManagement\\HotelManagementSystem\\LoginForm.vb [Design]",
+              "RelativeToolTip": "LoginForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-28T14:37:25.513Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

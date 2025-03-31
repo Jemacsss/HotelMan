@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AdminForm.resources
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.LoginForm.resources
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.ManageStaff.resources
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.vbproj.GenerateResource.cache
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.AssemblyInfo.vb
+C:\Users\User\Desktop\HotelManagement\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.vbproj.CoreCompileInputs.cache
