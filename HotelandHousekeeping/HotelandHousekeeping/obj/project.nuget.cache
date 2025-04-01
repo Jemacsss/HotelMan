@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jbPMu5AEm1E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jec\\source\\repos\\HotelandHousekeeping\\HotelandHousekeeping\\HotelandHousekeeping.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jec\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.3\\system.configuration.configurationmanager.9.0.3.nupkg.sha512",
+    "C:\\Users\\Jec\\.nuget\\packages\\system.data.oledb\\9.0.3\\system.data.oledb.9.0.3.nupkg.sha512",
+    "C:\\Users\\Jec\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.3\\system.diagnostics.eventlog.9.0.3.nupkg.sha512",
+    "C:\\Users\\Jec\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.3\\system.diagnostics.performancecounter.9.0.3.nupkg.sha512",
+    "C:\\Users\\Jec\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.3\\system.security.cryptography.protecteddata.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
