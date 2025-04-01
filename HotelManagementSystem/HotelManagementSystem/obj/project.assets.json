@@ -291,11 +291,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+      "projectUniqueName": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
       "projectName": "HotelManagementSystem",
-      "projectPath": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+      "projectPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
       "packagesPath": "C:\\Users\\Jec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
