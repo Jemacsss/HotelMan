@@ -285,23 +285,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jec\\.nuget\\packages\\": {},
+    "C:\\Users\\paulj\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+      "projectUniqueName": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
       "projectName": "HotelManagementSystem",
-      "projectPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
-      "packagesPath": "C:\\Users\\Jec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\obj\\",
+      "projectPath": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+      "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -328,7 +328,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -358,7 +359,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
