@@ -1,107 +1,74 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
-    Inherits System.Windows.Forms.Form
+﻿Imports System.Data.OleDb
+Imports System.Net
+Imports System.Windows.Forms.AxHost
 
-    'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
-    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-        Try
-            If disposing AndAlso components IsNot Nothing Then
-                components.Dispose()
-            End If
-        Finally
-            MyBase.Dispose(disposing)
-        End Try
+Public Class Login
+
+    Dim tryout As Integer = 1
+    Dim op As Integer
+    Public Shared first, last, username, password As String
+    Public Shared Ulevel As Integer
+
+    Private Sub LoginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If OpenConnection() Then
+            accountSet()
+        End If
+        txtUser.Focus()
     End Sub
 
-    'Required by the Windows Form Designer
-    Private components As System.ComponentModel.IContainer
+    Private Sub btnlogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+        If tryout < 3 Then
+            Try
+                ' Use a query instead of looping through the dataset
+                Dim query As String = "SELECT * FROM AccountsTbl WHERE UName = ? AND Pass = ?"
+                Dim command As New OleDbCommand(query, oledbCnn1)
+                command.Parameters.AddWithValue("?", txtUser.Text)
+                command.Parameters.AddWithValue("?", txtPass.Text)
 
-    'NOTE: The following procedure is required by the Windows Form Designer
-    'It can be modified using the Windows Form Designer.  
-    'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
-    Private Sub InitializeComponent()
-        Label1 = New Label()
-        Label2 = New Label()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
-        Button1 = New Button()
-        Label3 = New Label()
-        SuspendLayout()
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Location = New Point(131, 169)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(60, 15)
-        Label1.TabIndex = 0
-        Label1.Text = "Username"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(134, 214)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(57, 15)
-        Label2.TabIndex = 1
-        Label2.Text = "Password"
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(262, 161)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 2
-        ' 
-        ' TextBox2
-        ' 
-        TextBox2.Location = New Point(262, 206)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(100, 23)
-        TextBox2.TabIndex = 3
-        ' 
-        ' Button1
-        ' 
-        Button1.Location = New Point(262, 302)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(75, 23)
-        Button1.TabIndex = 4
-        Button1.Text = "Button1"
-        Button1.UseVisualStyleBackColor = True
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(296, 45)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(151, 15)
-        Label3.TabIndex = 5
-        Label3.Text = "Hotel Management System"
-        ' 
-        ' Form1
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
-        Controls.Add(Label3)
-        Controls.Add(Button1)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
-        Controls.Add(Label2)
-        Controls.Add(Label1)
-        Name = "Form1"
-        Text = "Form1"
-        ResumeLayout(False)
-        PerformLayout()
+                Dim reader As OleDbDataReader = command.ExecuteReader()
+
+                If reader.Read() Then
+                    ' Retrieve user details
+                    username = reader("UName").ToString()
+                    password = reader("Pass").ToString()
+                    Ulevel = Convert.ToInt32(reader("Lvl"))
+
+                    ' Open the appropriate form
+                    Select Case Ulevel
+                        Case 0
+                            Dim Manager As New Manager()
+                            Manager.Show()
+                        Case 1
+                            Dim HKSup As New HKsupervisor()
+                            HKSup.Show()
+                        Case 2
+                            Dim FD As New Frontdesk()
+                            Frontdesk.Show()
+                        Case 3
+                            Dim HK As New Housekeeping()
+                            Housekeeping.Show()
+                        Case Else
+                            MessageBox.Show("Invalid user level.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    End Select
+
+                    Me.Hide() ' Hide the login form
+
+                Else
+                    MessageBox.Show("Check your username and password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    tryout += 1
+                End If
+
+                reader.Close()
+
+            Catch ex As Exception
+                MessageBox.Show("Error: " & ex.Message, "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+        Else
+            MessageBox.Show("Maximum 3 tries only", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Application.Exit()
+        End If
     End Sub
-
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Label3 As Label
-
+    Private Sub Form1_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        Application.Exit()
+    End Sub
 End Class
