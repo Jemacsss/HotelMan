@@ -10,11 +10,17 @@ Public Class RoomDetail
 
         Try
             If Not DbCon.OpenConnection Then Exit Sub
+            Dim savePath As String = "C:\HotelRoomImages\" & IO.Path.GetFileName(txtImagePath.Text)
+            If Not IO.Directory.Exists("C:\HotelRoomImages\") Then
+                IO.Directory.CreateDirectory("C:\HotelRoomImages\")
+            End If
+            IO.File.Copy(txtImagePath.Text, savePath, True)
+
 
             Dim query As String = "INSERT INTO RoomTbl
-            (roomNum, RoomFloor, RoomCap, pricePerNight, amenities, accesibilityFeature, ReservationStatus, RoomType, BedType)
+            (roomNum, RoomFloor, RoomCap, pricePerNight, amenities, accesibilityFeature, ReservationStatus, RoomType, BedType, roomImagePath)
             VALUES 
-            (@roomNum, @RoomFloor, @RoomCap, @pricePerNight, @amenities, @accesibilityFeature, @ReservationStatus, @RoomType, @BedType)"
+            (@roomNum, @RoomFloor, @RoomCap, @pricePerNight, @amenities, @accesibilityFeature, @ReservationStatus, @RoomType, @BedType, @roomImagePath)"
 
             Using cmd As New OleDbCommand(query, DbCon.oledbCnn1)
                 cmd.Parameters.AddWithValue("@roomNum", txtRoomNum.Text)
@@ -24,6 +30,8 @@ Public Class RoomDetail
                 cmd.Parameters.AddWithValue("@RoomType", txtRoomType.Text)
                 cmd.Parameters.AddWithValue("@BedType", txtBedType.Text)
                 cmd.Parameters.AddWithValue("@reservationStatus", cbReserveStatus.Text)
+                cmd.Parameters.AddWithValue("@roomImagePath", savePath)
+
 
                 Dim amenitiesList As New List(Of String)
                 If chkPetFriendly.Checked Then amenitiesList.Add("Pet-Friendly")
@@ -144,5 +152,55 @@ Public Class RoomDetail
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Manager.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
+        Dim openFileDialog As New OpenFileDialog With {
+        .Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif",
+        .Title = "Select Room Image"
+    }
+
+        If openFileDialog.ShowDialog() = DialogResult.OK Then
+            Dim selectedFilePath As String = openFileDialog.FileName
+
+            ' Show preview in PictureBox
+            picRoomImage.Image = Image.FromFile(selectedFilePath)
+
+            ' Store file path in textbox
+            txtImagePath.Text = selectedFilePath
+        End If
+    End Sub
+
+    Private Sub RoomDetail_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtImagePath.Visible = False
+        LoadRoomDetails()
+    End Sub
+    Private Sub LoadRoomDetails()
+        Try
+            If Not DbCon.OpenConnection Then Exit Sub
+
+            Dim query As String = "SELECT * FROM RoomTbl WHERE roomNum = @roomNum"
+            Using cmd As New OleDbCommand(query, DbCon.oledbCnn1)
+                cmd.Parameters.AddWithValue("@roomNum", txtRoomNum.Text)
+                Using reader As OleDbDataReader = cmd.ExecuteReader()
+                    If reader.Read() Then
+                        ' Load image if path exists
+                        Dim imgPath As String = reader("roomImagePath").ToString()
+                        If Not String.IsNullOrEmpty(imgPath) AndAlso IO.File.Exists(imgPath) Then
+                            picRoomImage.Image = Image.FromFile(imgPath)
+                        Else
+                            picRoomImage.Image = Nothing ' Default if no image
+                        End If
+                    End If
+                End Using
+            End Using
+
+            DbCon.CloseConnection1()
+
+        Catch ex As Exception
+            MessageBox.Show("Error: " & ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            DbCon.CloseConnection1()
+        End Try
     End Sub
 End Class

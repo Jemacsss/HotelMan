@@ -63,9 +63,13 @@ Partial Class RoomDetail
         btnSave = New Button()
         btnCancel = New Button()
         Label12 = New Label()
+        picRoomImage = New PictureBox()
+        btnBrowse = New Button()
+        txtImagePath = New TextBox()
         gbRoomDet.SuspendLayout()
         gbAmenities.SuspendLayout()
         gbAccessibilty.SuspendLayout()
+        CType(picRoomImage, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' txtRoomType
@@ -192,7 +196,7 @@ Partial Class RoomDetail
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(135, 357)
+        Label2.Location = New Point(144, 369)
         Label2.Name = "Label2"
         Label2.Size = New Size(155, 32)
         Label2.TabIndex = 21
@@ -202,7 +206,7 @@ Partial Class RoomDetail
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(123, 155)
+        Label1.Location = New Point(85, 109)
         Label1.Name = "Label1"
         Label1.Size = New Size(156, 32)
         Label1.TabIndex = 20
@@ -210,9 +214,9 @@ Partial Class RoomDetail
         ' 
         ' btnBack
         ' 
-        btnBack.Location = New Point(35, 65)
+        btnBack.Location = New Point(532, 696)
         btnBack.Name = "btnBack"
-        btnBack.Size = New Size(107, 57)
+        btnBack.Size = New Size(109, 63)
         btnBack.TabIndex = 19
         btnBack.Text = "Back"
         btnBack.UseVisualStyleBackColor = True
@@ -479,11 +483,39 @@ Partial Class RoomDetail
         Label12.TabIndex = 54
         Label12.Text = "Add New Room"
         ' 
+        ' picRoomImage
+        ' 
+        picRoomImage.Location = New Point(95, 145)
+        picRoomImage.Name = "picRoomImage"
+        picRoomImage.Size = New Size(420, 221)
+        picRoomImage.SizeMode = PictureBoxSizeMode.StretchImage
+        picRoomImage.TabIndex = 55
+        picRoomImage.TabStop = False
+        ' 
+        ' btnBrowse
+        ' 
+        btnBrowse.Location = New Point(549, 214)
+        btnBrowse.Name = "btnBrowse"
+        btnBrowse.Size = New Size(109, 63)
+        btnBrowse.TabIndex = 56
+        btnBrowse.Text = "Browse"
+        btnBrowse.UseVisualStyleBackColor = True
+        ' 
+        ' txtImagePath
+        ' 
+        txtImagePath.Location = New Point(549, 307)
+        txtImagePath.Name = "txtImagePath"
+        txtImagePath.Size = New Size(92, 23)
+        txtImagePath.TabIndex = 57
+        ' 
         ' RoomDetail
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1196, 862)
+        Controls.Add(txtImagePath)
+        Controls.Add(btnBrowse)
+        Controls.Add(picRoomImage)
         Controls.Add(Label12)
         Controls.Add(btnCancel)
         Controls.Add(btnSave)
@@ -503,6 +535,7 @@ Partial Class RoomDetail
         gbAmenities.PerformLayout()
         gbAccessibilty.ResumeLayout(False)
         gbAccessibilty.PerformLayout()
+        CType(picRoomImage, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -548,4 +581,7 @@ Partial Class RoomDetail
     Friend WithEvents btnCancel As Button
     Friend WithEvents Label12 As Label
     Friend WithEvents chkNone As CheckBox
+    Friend WithEvents picRoomImage As PictureBox
+    Friend WithEvents btnBrowse As Button
+    Friend WithEvents txtImagePath As TextBox
 End Class
