@@ -31,3 +31,5 @@ C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSyst
 C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.HKsupervisor.resources
 C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.Housekeeping.resources
 C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.Manager.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.BookingFrm.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.HKscheduleFrm.resources

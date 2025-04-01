@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Housekeeping
+Partial Class HKscheduleFrm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,28 +23,40 @@ Partial Class Housekeeping
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Label1 = New Label()
+        btnback = New Button()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(357, 67)
+        Label1.Location = New Point(321, 61)
         Label1.Name = "Label1"
-        Label1.Size = New Size(83, 15)
+        Label1.Size = New Size(134, 15)
         Label1.TabIndex = 0
-        Label1.Text = "Housekeeping"
+        Label1.Text = "Housekeeping Schedule"
         ' 
-        ' Housekeeping
+        ' btnback
+        ' 
+        btnback.Location = New Point(364, 301)
+        btnback.Name = "btnback"
+        btnback.Size = New Size(75, 23)
+        btnback.TabIndex = 1
+        btnback.Text = "Back"
+        btnback.UseVisualStyleBackColor = True
+        ' 
+        ' HKscheduleFrm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnback)
         Controls.Add(Label1)
-        Name = "Housekeeping"
-        Text = "Housekeeping"
+        Name = "HKscheduleFrm"
+        Text = "HKscheduleFrm"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnback As Button
 End Class
