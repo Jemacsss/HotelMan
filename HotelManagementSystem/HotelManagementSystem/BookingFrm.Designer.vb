@@ -29,7 +29,7 @@ Partial Class BookingFrm
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(326, 69)
+        Label1.Location = New Point(330, 43)
         Label1.Name = "Label1"
         Label1.Size = New Size(133, 15)
         Label1.TabIndex = 0
@@ -37,7 +37,7 @@ Partial Class BookingFrm
         ' 
         ' btnback
         ' 
-        btnback.Location = New Point(354, 307)
+        btnback.Location = New Point(356, 365)
         btnback.Name = "btnback"
         btnback.Size = New Size(75, 23)
         btnback.TabIndex = 1

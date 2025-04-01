@@ -25,5 +25,8 @@
     <Compile Update="Manager.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="RoomDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
