@@ -64,7 +64,7 @@ Partial Class Manager
         Button4.Text = "Housekeeping"
         Button4.UseVisualStyleBackColor = True
         ' 
-        ' AdminView
+        ' Manager
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -73,7 +73,7 @@ Partial Class Manager
         Controls.Add(Button3)
         Controls.Add(btnreserve)
         Controls.Add(btnstaff)
-        Name = "AdminView"
+        Name = "Manager"
         Text = "AdminView"
         ResumeLayout(False)
     End Sub
