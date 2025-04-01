@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\source\\repos\\hotelmanagementsystem\\hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\source\\repos\\hotelmanagementsystem\\hotelmanagementsystem\\adminview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\adminview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\source\\repos\\hotelmanagementsystem\\hotelmanagementsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\source\\repos\\hotelmanagementsystem\\hotelmanagementsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\source\\repos\\hotelmanagementsystem\\hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\Login.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Login.vb",
+              "ToolTip": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\Login.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Login.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T05:03:21.651Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminView.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\AdminView.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\AdminView.vb",
+              "ToolTip": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\AdminView.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\AdminView.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T05:01:35.556Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\Form1.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form1.vb",
+              "ToolTip": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\Form1.vb",
+              "RelativeToolTip": "HotelManagementSystem\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T04:59:16.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbCon.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\DbCon.vb",
+              "ToolTip": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
+              "RelativeToolTip": "HotelManagementSystem\\DbCon.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T04:58:01.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\Form1.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form1.vb",
+              "ToolTip": "C:\\Users\\Jec\\source\\repos\\HotelManagementSystem\\HotelManagementSystem\\Form1.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T04:57:04.781Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
