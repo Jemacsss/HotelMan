@@ -26,6 +26,7 @@ Partial Class Manager
         btnreserve = New Button()
         Button3 = New Button()
         Button4 = New Button()
+        btnAcc = New Button()
         SuspendLayout()
         ' 
         ' btnstaff
@@ -64,11 +65,21 @@ Partial Class Manager
         Button4.Text = "Housekeeping"
         Button4.UseVisualStyleBackColor = True
         ' 
+        ' btnAcc
+        ' 
+        btnAcc.Location = New Point(102, 284)
+        btnAcc.Name = "btnAcc"
+        btnAcc.Size = New Size(98, 23)
+        btnAcc.TabIndex = 4
+        btnAcc.Text = "Accounts"
+        btnAcc.UseVisualStyleBackColor = True
+        ' 
         ' Manager
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnAcc)
         Controls.Add(Button4)
         Controls.Add(Button3)
         Controls.Add(btnreserve)
@@ -82,4 +93,5 @@ Partial Class Manager
     Friend WithEvents btnreserve As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents btnAcc As Button
 End Class
