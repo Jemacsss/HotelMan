@@ -23,22 +23,44 @@ Partial Class Frontdesk
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Label1 = New Label()
+        btnbooking = New Button()
+        btnhksched = New Button()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(255, 100)
+        Label1.Location = New Point(366, 52)
         Label1.Name = "Label1"
         Label1.Size = New Size(59, 15)
         Label1.TabIndex = 0
         Label1.Text = "Frontdesk"
+        ' 
+        ' btnbooking
+        ' 
+        btnbooking.Location = New Point(291, 128)
+        btnbooking.Name = "btnbooking"
+        btnbooking.Size = New Size(204, 83)
+        btnbooking.TabIndex = 1
+        btnbooking.Text = "Bookings"
+        btnbooking.UseVisualStyleBackColor = True
+        ' 
+        ' btnhksched
+        ' 
+        btnhksched.Location = New Point(291, 269)
+        btnhksched.Name = "btnhksched"
+        btnhksched.Size = New Size(204, 83)
+        btnhksched.TabIndex = 2
+        btnhksched.Text = "Housekeeping Schedule"
+        btnhksched.UseVisualStyleBackColor = True
         ' 
         ' Frontdesk
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnhksched)
+        Controls.Add(btnbooking)
         Controls.Add(Label1)
         Name = "Frontdesk"
         Text = "FrondDesk"
@@ -47,4 +69,6 @@ Partial Class Frontdesk
     End Sub
 
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnbooking As Button
+    Friend WithEvents btnhksched As Button
 End Class
