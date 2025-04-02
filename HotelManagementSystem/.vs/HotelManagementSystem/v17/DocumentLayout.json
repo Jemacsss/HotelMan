@@ -1,58 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\housekeeping.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\housekeeping.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\manager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\manager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hotelmanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hotelmanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\paulj\\onedrive\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\manager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\manager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hotelmanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hotelmanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\housekeeping.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\housekeeping.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\bookingfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\paymentdetailsfrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkschedulefrm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\frontdesk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,17 +78,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "DbCon.vb",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\DbCon.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
               "RelativeToolTip": "HotelManagementSystem\\DbCon.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-01T05:24:24.102Z",
               "IsPinned": true,
@@ -80,36 +96,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaymentdetailsFrm.vb",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\PaymentdetailsFrm.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb",
-              "RelativeToolTip": "HotelManagementSystem\\PaymentdetailsFrm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Accounts.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Accounts.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Accounts.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Accounts.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Accounts.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-01T17:02:36.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaymentdetailsFrm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\PaymentdetailsFrm.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb [Design]",
-              "RelativeToolTip": "HotelManagementSystem\\PaymentdetailsFrm.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-01T16:36:02.567Z",
+              "WhenOpened": "2025-04-02T06:36:33.477Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Manager.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Manager.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Manager.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Manager.vb",
+              "RelativeToolTip": "HotelManagementSystem\\Manager.vb",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-02T06:35:38.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Accounts.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Accounts.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Accounts.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Accounts.vb",
+              "RelativeToolTip": "HotelManagementSystem\\Accounts.vb",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAkwMcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-02T06:33:14.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Login.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Login.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T05:19:21.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Login.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb",
+              "RelativeToolTip": "HotelManagementSystem\\Login.vb",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T05:24:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BookingFrm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\BookingFrm.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb [Design]",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb [Design]",
               "RelativeToolTip": "HotelManagementSystem\\BookingFrm.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-01T13:41:35.33Z",
@@ -117,24 +171,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookingFrm.vb",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\BookingFrm.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb",
-              "RelativeToolTip": "HotelManagementSystem\\BookingFrm.vb",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCwAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Manager.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Manager.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Manager.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Manager.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Manager.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-01T13:40:35.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T06:35:31.447Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "BookingFrm.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\BookingFrm.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\BookingFrm.vb",
+              "RelativeToolTip": "HotelManagementSystem\\BookingFrm.vb",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T13:40:35.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HotelManagementSystem",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
               "RelativeDocumentMoniker": "HotelManagementSystem\\HotelManagementSystem.vbproj",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
               "RelativeToolTip": "HotelManagementSystem\\HotelManagementSystem.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
               "WhenOpened": "2025-04-01T16:33:33.562Z",
@@ -142,11 +207,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
+              "Title": "PaymentdetailsFrm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\PaymentdetailsFrm.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\PaymentdetailsFrm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T16:36:02.567Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentdetailsFrm.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\PaymentdetailsFrm.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\PaymentdetailsFrm.vb",
+              "RelativeToolTip": "HotelManagementSystem\\PaymentdetailsFrm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-01T17:02:36.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Housekeeping.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Housekeeping.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Housekeeping.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\Housekeeping.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Housekeeping.vb [Design]",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Housekeeping.vb [Design]",
               "RelativeToolTip": "HotelManagementSystem\\Housekeeping.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-01T06:38:07.417Z",
@@ -154,24 +243,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "HKscheduleFrm.vb",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\HKscheduleFrm.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb",
               "RelativeToolTip": "HotelManagementSystem\\HKscheduleFrm.vb",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-01T06:34:36.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T06:34:36.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "HKscheduleFrm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\HKscheduleFrm.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb [Design]",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKscheduleFrm.vb [Design]",
               "RelativeToolTip": "HotelManagementSystem\\HKscheduleFrm.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-01T06:29:07.572Z",
@@ -179,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Frontdesk.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\Frontdesk.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb [Design]",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb [Design]",
               "RelativeToolTip": "HotelManagementSystem\\Frontdesk.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-01T05:34:58.485Z",
@@ -191,39 +279,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Frontdesk.vb",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb",
+              "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\Frontdesk.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Frontdesk.vb",
               "RelativeToolTip": "HotelManagementSystem\\Frontdesk.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-01T06:27:10.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Login.vb",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\Login.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb",
-              "RelativeToolTip": "HotelManagementSystem\\Login.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-01T05:24:28.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\Login.vb",
-              "ToolTip": "C:\\Users\\paulj\\OneDrive\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\Login.vb [Design]",
-              "RelativeToolTip": "HotelManagementSystem\\Login.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-01T05:19:21.635Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

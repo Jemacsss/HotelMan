@@ -32,7 +32,6 @@ C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSyst
 C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.Housekeeping.resources
 C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.Manager.resources
 C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.BookingFrm.resources
-C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.HKscheduleFrm.resources
 C:\Users\paulj\OneDrive\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\bin\Debug\net8.0-windows\HotelManagementSystem.exe
 C:\Users\paulj\OneDrive\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\bin\Debug\net8.0-windows\HotelManagementSystem.deps.json
 C:\Users\paulj\OneDrive\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\bin\Debug\net8.0-windows\HotelManagementSystem.runtimeconfig.json
@@ -69,3 +68,9 @@ C:\Users\paulj\OneDrive\Documents\GitHub\HotelMan\HotelManagementSystem\HotelMan
 C:\Users\paulj\OneDrive\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.genruntimeconfig.cache
 C:\Users\paulj\OneDrive\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\ref\HotelManagementSystem.dll
 C:\Users\paulj\OneDrive\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.PaymentdetailsFrm.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.Accounts.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.HKAddSchedule.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.HKinventory.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.HousekeepingRecord.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.PaymentdetailsFrm.resources
+C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementSystem\obj\Debug\net8.0-windows\HotelManagementSystem.RoomDetail.resources

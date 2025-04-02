@@ -23,4 +23,10 @@
         roomfrm.Show()
         Me.Close()
     End Sub
+
+    Private Sub btnreserve_Click(sender As Object, e As EventArgs) Handles btnreserve.Click
+        Dim reservationfrm As New BookingFrm
+        reservationfrm.Show()
+        Me.Close()
+    End Sub
 End Class

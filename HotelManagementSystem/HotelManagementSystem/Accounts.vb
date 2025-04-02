@@ -31,7 +31,7 @@ Public Class Accounts
                 txtLname.Text = drow("Lname").ToString()
                 txtUser.Text = drow("Uname").ToString()
                 txtPass.Text = drow("Pass").ToString()
-                txtPos.Text = drow("Pos").ToString()
+                cboPos.Text = drow("Pos").ToString()
                 op1 = ctr
                 Exit For
             End If
@@ -98,7 +98,7 @@ Public Class Accounts
                 MessageBox.Show("Fill up the Username!!", "Error", MessageBoxButtons.OK)
             ElseIf txtPass.Text = "" Then
                 MessageBox.Show("Fill up the Password!!", "Error", MessageBoxButtons.OK)
-            ElseIf txtPos.Text = "" Then
+            ElseIf cboPos.Text = "" Then
                 MessageBox.Show("Fill up the Position!!", "Error", MessageBoxButtons.OK)
             Else
                 op = 0
@@ -109,8 +109,8 @@ Public Class Accounts
                     drow("Lname") = txtLname.Text
                     drow("Uname") = txtUser.Text
                     drow("Pass") = txtPass.Text
-                    drow("Pos") = txtPos.Text
-                    drow("Lvl") = GetAccountLevel(txtPos.Text)
+                    drow("Pos") = cboPos.Text
+                    drow("Lvl") = GetAccountLevel(cboPos.Text)
 
                     accountDataSet.Tables("AccountsTbl").Rows.Add(drow)
                     BuilderConn(oledbAdapterAccounts)
@@ -130,7 +130,7 @@ Public Class Accounts
             Exit Sub
         End If
 
-        If txtFname.Text = "" Or txtLname.Text = "" Or txtUser.Text = "" Or txtPass.Text = "" Or txtPos.Text = "" Then
+        If txtFname.Text = "" Or txtLname.Text = "" Or txtUser.Text = "" Or txtPass.Text = "" Or cboPos.Text = "" Then
             MessageBox.Show("All fields must be filled!", "Error", MessageBoxButtons.OK)
             Exit Sub
         End If
@@ -140,8 +140,8 @@ Public Class Accounts
         drow("Lname") = txtLname.Text
         drow("Uname") = txtUser.Text
         drow("Pass") = txtPass.Text
-        drow("Pos") = txtPos.Text
-        drow("Lvl") = GetAccountLevel(txtPos.Text)
+        drow("Pos") = cboPos.Text
+        drow("Lvl") = GetAccountLevel(cboPos.Text)
 
         Try
             BuilderConn(oledbAdapterAccounts)
@@ -185,7 +185,7 @@ Public Class Accounts
         txtLname.Text = ""
         txtUser.Text = ""
         txtPass.Text = ""
-        txtPos.Text = ""
+        cboPos.Text = ""
         displayUsers()
     End Sub
 
@@ -193,11 +193,11 @@ Public Class Accounts
         Select Case position
             Case "Manager"
                 Return 0
-            Case "HKSup"
+            Case "Housekeeping Supervisor"
                 Return 1
-            Case "FD"
+            Case "Frontdesk"
                 Return 2
-            Case "HK"
+            Case "Housekeeping"
                 Return 3
         End Select
     End Function
@@ -207,6 +207,6 @@ Public Class Accounts
         txtLname.Text = ""
         txtUser.Text = ""
         txtPass.Text = ""
-        txtPos.Text = ""
+        cboPos.Text = ""
     End Sub
 End Class
