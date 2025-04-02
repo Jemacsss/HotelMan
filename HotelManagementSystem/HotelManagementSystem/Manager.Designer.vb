@@ -22,64 +22,76 @@ Partial Class Manager
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        btnstaff = New Button()
+        btnAcc = New Button()
         btnreserve = New Button()
-        Button3 = New Button()
+        btnManage = New Button()
         Button4 = New Button()
+        btnBack = New Button()
         SuspendLayout()
         ' 
-        ' btnstaff
+        ' btnAcc
         ' 
-        btnstaff.Location = New Point(102, 125)
-        btnstaff.Name = "btnstaff"
-        btnstaff.Size = New Size(98, 23)
-        btnstaff.TabIndex = 0
-        btnstaff.Text = "Staff"
-        btnstaff.UseVisualStyleBackColor = True
+        btnAcc.Location = New Point(263, 343)
+        btnAcc.Name = "btnAcc"
+        btnAcc.Size = New Size(193, 68)
+        btnAcc.TabIndex = 0
+        btnAcc.Text = "Accounts"
+        btnAcc.UseVisualStyleBackColor = True
         ' 
         ' btnreserve
         ' 
-        btnreserve.Location = New Point(102, 168)
+        btnreserve.Location = New Point(263, 84)
         btnreserve.Name = "btnreserve"
-        btnreserve.Size = New Size(98, 23)
+        btnreserve.Size = New Size(193, 58)
         btnreserve.TabIndex = 1
         btnreserve.Text = "Reservation"
         btnreserve.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' btnManage
         ' 
-        Button3.Location = New Point(102, 207)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(98, 23)
-        Button3.TabIndex = 2
-        Button3.Text = "Rooms"
-        Button3.UseVisualStyleBackColor = True
+        btnManage.Location = New Point(263, 170)
+        btnManage.Name = "btnManage"
+        btnManage.Size = New Size(193, 63)
+        btnManage.TabIndex = 2
+        btnManage.Text = "Manage Rooms"
+        btnManage.UseVisualStyleBackColor = True
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(102, 245)
+        Button4.Location = New Point(263, 250)
         Button4.Name = "Button4"
-        Button4.Size = New Size(98, 23)
+        Button4.Size = New Size(193, 66)
         Button4.TabIndex = 3
         Button4.Text = "Housekeeping"
         Button4.UseVisualStyleBackColor = True
+        ' 
+        ' btnBack
+        ' 
+        btnBack.Location = New Point(263, 435)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(193, 68)
+        btnBack.TabIndex = 4
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
         ' 
         ' Manager
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(800, 585)
+        Controls.Add(btnBack)
         Controls.Add(Button4)
-        Controls.Add(Button3)
+        Controls.Add(btnManage)
         Controls.Add(btnreserve)
-        Controls.Add(btnstaff)
+        Controls.Add(btnAcc)
         Name = "Manager"
         Text = "AdminView"
         ResumeLayout(False)
     End Sub
 
-    Friend WithEvents btnstaff As Button
+    Friend WithEvents btnAcc As Button
     Friend WithEvents btnreserve As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnManage As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents btnBack As Button
 End Class

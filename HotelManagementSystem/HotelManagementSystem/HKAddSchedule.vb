@@ -81,4 +81,9 @@ Public Class HKAddSchedule
         End Try
     End Sub
 
+    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        Dim hkschedfrm As New HKscheduleFrm
+        hkschedfrm.Show()
+        Me.Hide()
+    End Sub
 End Class

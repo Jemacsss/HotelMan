@@ -38,6 +38,7 @@ Partial Class HKAddSchedule
         Label7 = New Label()
         txtStatus = New TextBox()
         Label8 = New Label()
+        btnBack = New Button()
         SuspendLayout()
         ' 
         ' Label6
@@ -179,11 +180,21 @@ Partial Class HKAddSchedule
         Label8.TabIndex = 48
         Label8.Text = "Status:"
         ' 
+        ' btnBack
+        ' 
+        btnBack.Location = New Point(23, 318)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(75, 23)
+        btnBack.TabIndex = 50
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
+        ' 
         ' HKAddSchedule
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(355, 354)
+        ClientSize = New Size(363, 388)
+        Controls.Add(btnBack)
         Controls.Add(txtStatus)
         Controls.Add(Label8)
         Controls.Add(txtRoomtype)
@@ -221,4 +232,5 @@ Partial Class HKAddSchedule
     Friend WithEvents Label7 As Label
     Friend WithEvents txtStatus As TextBox
     Friend WithEvents Label8 As Label
+    Friend WithEvents btnBack As Button
 End Class

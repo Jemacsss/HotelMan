@@ -37,6 +37,7 @@ Partial Class HKinventory
         TextBox2 = New TextBox()
         TextBox3 = New TextBox()
         TextBox4 = New TextBox()
+        btnBack = New Button()
         SuspendLayout()
         ' 
         ' ComboBox1
@@ -175,11 +176,21 @@ Partial Class HKinventory
         TextBox4.Size = New Size(305, 23)
         TextBox4.TabIndex = 27
         ' 
+        ' btnBack
+        ' 
+        btnBack.Location = New Point(30, 304)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(75, 23)
+        btnBack.TabIndex = 28
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
+        ' 
         ' HKinventory
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(687, 354)
+        Controls.Add(btnBack)
         Controls.Add(TextBox4)
         Controls.Add(TextBox3)
         Controls.Add(TextBox2)
@@ -216,4 +227,5 @@ Partial Class HKinventory
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents btnBack As Button
 End Class
