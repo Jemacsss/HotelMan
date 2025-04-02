@@ -34,6 +34,40 @@ Module DbCon
         End Try
     End Sub
 
+    Public Sub guestSet()
+        Try
+            sql = "SELECT * FROM GuestTbl"
+            oledbAdapterAccounts = New OleDbDataAdapter(sql, oledbCnn1)
+            oledbAdapterAccounts.Fill(accountDataSet, "GuestTbl")
+        Catch ex As Exception
+            MessageBox.Show($"Error loading HotelManagementDB: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Public Sub roomsSet()
+        Try
+            sql = "SELECT * FROM RoomsTbl"
+            oledbAdapterAccounts = New OleDbDataAdapter(sql, oledbCnn1)
+            oledbAdapterAccounts.Fill(accountDataSet, "RoomsTbl")
+        Catch ex As Exception
+            MessageBox.Show($"Error loading HotelManagementDB: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Public Sub bookedSet()
+        Try
+            sql = "SELECT * FROM BookedTbl"
+            oledbAdapterAccounts = New OleDbDataAdapter(sql, oledbCnn1)
+            oledbAdapterAccounts.Fill(accountDataSet, "BookedTbl")
+        Catch ex As Exception
+            MessageBox.Show($"Error loading HotelManagementDB: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+
+
+
+
     Public Sub CloseConnection1()
         If oledbCnn1 IsNot Nothing AndAlso oledbCnn1.State = ConnectionState.Open Then
             oledbCnn1.Close()
