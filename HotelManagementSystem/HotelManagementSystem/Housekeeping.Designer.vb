@@ -23,6 +23,7 @@ Partial Class Housekeeping
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Label1 = New Label()
+        btnBack = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -34,11 +35,21 @@ Partial Class Housekeeping
         Label1.TabIndex = 0
         Label1.Text = "Housekeeping"
         ' 
+        ' btnBack
+        ' 
+        btnBack.Location = New Point(357, 371)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(75, 23)
+        btnBack.TabIndex = 1
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
+        ' 
         ' Housekeeping
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnBack)
         Controls.Add(Label1)
         Name = "Housekeeping"
         Text = "Housekeeping"
@@ -47,4 +58,5 @@ Partial Class Housekeeping
     End Sub
 
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnBack As Button
 End Class

@@ -25,6 +25,7 @@ Partial Class Frontdesk
         Label1 = New Label()
         btnbooking = New Button()
         btnhksched = New Button()
+        btnBack = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -47,18 +48,28 @@ Partial Class Frontdesk
         ' 
         ' btnhksched
         ' 
-        btnhksched.Location = New Point(291, 269)
+        btnhksched.Location = New Point(291, 237)
         btnhksched.Name = "btnhksched"
         btnhksched.Size = New Size(204, 83)
         btnhksched.TabIndex = 2
         btnhksched.Text = "Housekeeping Schedule"
         btnhksched.UseVisualStyleBackColor = True
         ' 
+        ' btnBack
+        ' 
+        btnBack.Location = New Point(350, 392)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(75, 23)
+        btnBack.TabIndex = 3
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
+        ' 
         ' Frontdesk
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnBack)
         Controls.Add(btnhksched)
         Controls.Add(btnbooking)
         Controls.Add(Label1)
@@ -71,4 +82,5 @@ Partial Class Frontdesk
     Friend WithEvents Label1 As Label
     Friend WithEvents btnbooking As Button
     Friend WithEvents btnhksched As Button
+    Friend WithEvents btnBack As Button
 End Class

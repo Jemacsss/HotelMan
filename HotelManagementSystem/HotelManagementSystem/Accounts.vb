@@ -202,4 +202,11 @@ Public Class Accounts
         End Select
     End Function
 
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        txtFname.Text = ""
+        txtLname.Text = ""
+        txtUser.Text = ""
+        txtPass.Text = ""
+        txtPos.Text = ""
+    End Sub
 End Class

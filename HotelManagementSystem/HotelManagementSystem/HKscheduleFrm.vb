@@ -92,7 +92,7 @@ Public Class HKscheduleFrm
 
     ' Navigation button to go back.
     Private Sub btnback_Click(sender As Object, e As EventArgs) Handles btnback.Click
-        Frontdesk.Show()
+        Manager.Show()
         Me.Hide()
     End Sub
 
