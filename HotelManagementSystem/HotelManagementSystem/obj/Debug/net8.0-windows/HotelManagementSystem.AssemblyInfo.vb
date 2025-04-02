@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("HotelManagementSystem"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+793772f66f6eaca2e3a4975d3d045e61fc7708b8"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56cc34ad60c3d518c389d79d260106425c7cd95e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("HotelManagementSystem"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("HotelManagementSystem"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
