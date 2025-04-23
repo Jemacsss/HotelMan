@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkinventoryoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkinventoryoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkinventoryoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkinventoryoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\dbcon.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkinventoryoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkinventoryoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|solutionrelative:hotelmanagementsystem\\hkoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EE798AB-9A6C-43CF-80C2-DE8614A0F062}|HotelManagementSystem\\HotelManagementSystem.vbproj|c:\\users\\jec\\documents\\github\\hotelman\\hotelmanagementsystem\\hotelmanagementsystem\\hkoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -66,17 +66,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DbCon.vb",
               "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\DbCon.vb",
               "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\DbCon.vb",
               "RelativeToolTip": "HotelManagementSystem\\DbCon.vb",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwAsAAACnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-23T00:09:21.504Z",
               "IsPinned": true,
@@ -96,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HKoverview.vb",
               "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKoverview.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\HKoverview.vb",
@@ -104,8 +104,7 @@
               "RelativeToolTip": "HotelManagementSystem\\HKoverview.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-23T00:13:44.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T00:13:44.555Z"
             },
             {
               "$type": "Document",
@@ -121,28 +120,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HKInventoryOverview.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKInventoryOverview.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\HKInventoryOverview.vb",
-              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKInventoryOverview.vb [Design]*",
-              "RelativeToolTip": "HotelManagementSystem\\HKInventoryOverview.vb [Design]*",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKInventoryOverview.vb [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\HKInventoryOverview.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-22T11:05:58.717Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HKInventoryOverview.vb",
               "DocumentMoniker": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKInventoryOverview.vb",
               "RelativeDocumentMoniker": "HotelManagementSystem\\HKInventoryOverview.vb",
-              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKInventoryOverview.vb*",
-              "RelativeToolTip": "HotelManagementSystem\\HKInventoryOverview.vb*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCwAAAArAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HKInventoryOverview.vb",
+              "RelativeToolTip": "HotelManagementSystem\\HKInventoryOverview.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-22T12:53:02.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T12:53:02.496Z"
             },
             {
               "$type": "Document",
