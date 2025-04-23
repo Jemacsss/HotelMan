@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jec\\Desktop\\Test\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj": {}
+    "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Jec\\Desktop\\Test\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj": {
+    "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jec\\Desktop\\Test\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+        "projectUniqueName": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
         "projectName": "HotelManagementSystem",
-        "projectPath": "C:\\Users\\Jec\\Desktop\\Test\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
+        "projectPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\HotelManagementSystem.vbproj",
         "packagesPath": "C:\\Users\\Jec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jec\\Desktop\\Test\\HotelManagementSystem\\HotelManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\Jec\\Documents\\GitHub\\HotelMan\\HotelManagementSystem\\HotelManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

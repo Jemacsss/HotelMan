@@ -9,7 +9,7 @@ Module DbCon
     'C:\Users\User\Desktop\HotelManagementSystem
     'C:\Users\Jec\Desktop\Test\HotelManagementSystem\HotelManagementDB.accdb
 
-    Private connection1 As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Jec\Desktop\Test\HotelManagementSystem\HotelManagementDB.accdb"
+    Private connection1 As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Jec\Documents\GitHub\HotelMan\HotelManagementSystem\HotelManagementDB.accdb"
 
     Public oledbCnn1 As OleDbConnection
     Public oledbAdapterAccounts As OleDbDataAdapter
