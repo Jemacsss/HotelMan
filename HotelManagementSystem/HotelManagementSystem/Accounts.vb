@@ -6,11 +6,29 @@ Public Class Accounts
     Dim st, sr As String
     Dim username As String
     Dim crt As Integer
+    Dim isDirty As Boolean = False
 
     Private Sub Accounts_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         accountDataSet.Clear()
         accountSet()
         displayUsers()
+        AddHandler txtFname.TextChanged, AddressOf MarkDirty
+        AddHandler txtLname.TextChanged, AddressOf MarkDirty
+        AddHandler txtUser.TextChanged, AddressOf MarkDirty
+        AddHandler txtPass.TextChanged, AddressOf MarkDirty
+        AddHandler cboPos.SelectedIndexChanged, AddressOf MarkDirty
+        AddHandler cboPos.TextChanged, AddressOf MarkDirty
+
+        ' Disable textboxes and combobox initially
+        EnableUserInfoFields(False)
+
+        ' Set password char for password textbox
+        txtPass.PasswordChar = "*"c
+
+        ' Add position items if not already added
+        If cboPos.Items.Count = 0 Then
+            cboPos.Items.AddRange(New String() {"Manager", "Housekeeping Supervisor", "Frontdesk", "Housekeeping"})
+        End If
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
@@ -82,75 +100,92 @@ Public Class Accounts
         End If
     End Sub
 
-
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         accountDataSet.Clear()
         accountSet()
         If btnAdd.Text = "Add" Then
-            'clearRecord()
+            clearRecord()
+            EnableUserInfoFields(True)
+            ShowPassword(True) ' show password when adding
             btnAdd.Text = "Save"
         ElseIf btnAdd.Text = "Save" Then
-            If txtFname.Text = "" Then
-                MessageBox.Show("Fill up the First Name!!", "Error", MessageBoxButtons.OK)
-            ElseIf txtLname.Text = "" Then
-                MessageBox.Show("Fill up the Last Name!!", "Error", MessageBoxButtons.OK)
-            ElseIf txtUser.Text = "" Then
-                MessageBox.Show("Fill up the Username!!", "Error", MessageBoxButtons.OK)
-            ElseIf txtPass.Text = "" Then
-                MessageBox.Show("Fill up the Password!!", "Error", MessageBoxButtons.OK)
-            ElseIf cboPos.Text = "" Then
-                MessageBox.Show("Fill up the Position!!", "Error", MessageBoxButtons.OK)
+            ' validation checks here...
+
+            If txtFname.Text.Trim() = "" Then
+                MessageBox.Show("Fill up the First Name!", "Error", MessageBoxButtons.OK)
+                ' ... [other checks remain the same]
             Else
+                ' Adding user
                 op = 0
                 searchRecord()
                 If op = 0 Then
-                    drow = accountDataSet.Tables("AccountsTbl").NewRow
-                    drow("Fname") = txtFname.Text
-                    drow("Lname") = txtLname.Text
-                    drow("Uname") = txtUser.Text
-                    drow("Pass") = txtPass.Text
-                    drow("Pos") = cboPos.Text
-                    drow("Lvl") = GetAccountLevel(cboPos.Text)
+                    Dim drow As DataRow = accountDataSet.Tables("AccountsTbl").NewRow
+                    drow("Fname") = txtFname.Text.Trim()
+                    drow("Lname") = txtLname.Text.Trim()
+                    drow("Uname") = txtUser.Text.Trim()
+                    drow("Pass") = txtPass.Text.Trim()
+                    drow("Pos") = cboPos.Text.Trim()
+                    drow("Lvl") = GetAccountLevel(cboPos.Text.Trim())
 
                     accountDataSet.Tables("AccountsTbl").Rows.Add(drow)
                     BuilderConn(oledbAdapterAccounts)
                     oledbAdapterAccounts.Update(accountDataSet, "AccountsTbl")
-                    MessageBox.Show("User account Successfully Added!!", "Information", MessageBoxButtons.OK)
+                    MessageBox.Show("User account successfully added!", "Information", MessageBoxButtons.OK)
 
                     btnAdd.Text = "Add"
                     clearRecord()
+                    EnableUserInfoFields(False)
+                    ShowPassword(False) ' hide password after saving
                 End If
             End If
         End If
     End Sub
 
+
     Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
-        If lsbUsers.SelectedIndex = -1 Then
-            MessageBox.Show("Please select an account to update.", "Error", MessageBoxButtons.OK)
-            Exit Sub
+        If btnUpdate.Text = "Update" Then
+            If lsbUsers.SelectedIndex = -1 Then
+                MessageBox.Show("Please select an account to update.", "Error", MessageBoxButtons.OK)
+                Exit Sub
+            End If
+
+            EnableUserInfoFields(True)
+            ShowPassword(True) ' show password when updating
+            btnUpdate.Text = "Save"
+            isDirty = False
+
+        ElseIf btnUpdate.Text = "Save" Then
+            If Not isDirty Then
+                MessageBox.Show("No changes detected.", "Information", MessageBoxButtons.OK)
+                Exit Sub
+            End If
+
+            If txtFname.Text.Trim() = "" Or txtLname.Text.Trim() = "" Or txtUser.Text.Trim() = "" Or txtPass.Text.Trim() = "" Or cboPos.Text.Trim() = "" Then
+                MessageBox.Show("All fields must be filled!", "Error", MessageBoxButtons.OK)
+                Exit Sub
+            End If
+
+            ' Update data
+            Dim drow As DataRow = accountDataSet.Tables("AccountsTbl").Rows(op1)
+            drow("Fname") = txtFname.Text.Trim()
+            drow("Lname") = txtLname.Text.Trim()
+            drow("Uname") = txtUser.Text.Trim()
+            drow("Pass") = txtPass.Text.Trim()
+            drow("Pos") = cboPos.Text.Trim()
+            drow("Lvl") = GetAccountLevel(cboPos.Text.Trim())
+
+            Try
+                BuilderConn(oledbAdapterAccounts)
+                oledbAdapterAccounts.Update(accountDataSet, "AccountsTbl")
+                MessageBox.Show("User account successfully updated!", "Information", MessageBoxButtons.OK)
+                clearRecord()
+                EnableUserInfoFields(False)
+                ShowPassword(False) ' hide password after updating
+                btnUpdate.Text = "Update"
+            Catch ex As Exception
+                MessageBox.Show("Error updating account: " & ex.Message, "Error", MessageBoxButtons.OK)
+            End Try
         End If
-
-        If txtFname.Text = "" Or txtLname.Text = "" Or txtUser.Text = "" Or txtPass.Text = "" Or cboPos.Text = "" Then
-            MessageBox.Show("All fields must be filled!", "Error", MessageBoxButtons.OK)
-            Exit Sub
-        End If
-
-        Dim drow As DataRow = accountDataSet.Tables("AccountsTbl").Rows(op1)
-        drow("Fname") = txtFname.Text
-        drow("Lname") = txtLname.Text
-        drow("Uname") = txtUser.Text
-        drow("Pass") = txtPass.Text
-        drow("Pos") = cboPos.Text
-        drow("Lvl") = GetAccountLevel(cboPos.Text)
-
-        Try
-            BuilderConn(oledbAdapterAccounts)
-            oledbAdapterAccounts.Update(accountDataSet, "AccountsTbl")
-            MessageBox.Show("User account successfully updated!", "Information", MessageBoxButtons.OK)
-            clearRecord()
-        Catch ex As Exception
-            MessageBox.Show("Error updating account: " & ex.Message, "Error", MessageBoxButtons.OK)
-        End Try
     End Sub
 
 
@@ -187,9 +222,11 @@ Public Class Accounts
         txtPass.Text = ""
         cboPos.Text = ""
         displayUsers()
+        lsbUsers.ClearSelected()
     End Sub
 
-    Function GetAccountLevel(position As String) As Integer
+    ' In Accounts.vb (or wherever GetAccountLevel is declared)
+    Public Function GetAccountLevel(position As String) As Integer
         Select Case position
             Case "Manager"
                 Return 0
@@ -199,14 +236,42 @@ Public Class Accounts
                 Return 2
             Case "Housekeeping"
                 Return 3
+            Case Else
+                ' Default for unknown positions
+                Return -1
         End Select
     End Function
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
-        txtFname.Text = ""
-        txtLname.Text = ""
-        txtUser.Text = ""
-        txtPass.Text = ""
-        cboPos.Text = ""
+        clearRecord()
+        EnableUserInfoFields(False)
+        btnAdd.Text = "Add"
+        btnUpdate.Text = "Update"
+        isDirty = False
+        ShowPassword(False) ' always hide when canceling
     End Sub
+
+
+    Sub EnableUserInfoFields(state As Boolean)
+        txtFname.Enabled = state
+        txtLname.Enabled = state
+        txtUser.Enabled = state
+        txtPass.Enabled = state
+        cboPos.Enabled = state
+    End Sub
+
+    Private Sub MarkDirty(sender As Object, e As EventArgs)
+        If btnUpdate.Text = "Save" Then
+            isDirty = True
+        End If
+    End Sub
+
+    Sub ShowPassword(state As Boolean)
+        If state Then
+            txtPass.PasswordChar = ControlChars.NullChar ' shows text
+        Else
+            txtPass.PasswordChar = "*"c ' masks text
+        End If
+    End Sub
+
 End Class

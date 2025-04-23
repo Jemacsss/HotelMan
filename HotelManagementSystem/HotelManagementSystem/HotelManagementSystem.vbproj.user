@@ -13,16 +13,25 @@
     <Compile Update="Frontdesk.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="hkAddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="HKAddSchedule.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="HKinventory.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="HKInventoryOverview.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="HKscheduleFrm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="HKsupervisor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HKoverview.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Housekeeping.vb">
@@ -35,6 +44,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PaymentdetailsFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Roomcheck.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="RoomDetail.vb">

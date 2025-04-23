@@ -78,7 +78,7 @@ Partial Class Accounts
         lsbUsers.Location = New Point(147, 179)
         lsbUsers.Margin = New Padding(3, 4, 3, 4)
         lsbUsers.Name = "lsbUsers"
-        lsbUsers.Size = New Size(466, 384)
+        lsbUsers.Size = New Size(467, 384)
         lsbUsers.TabIndex = 3
         ' 
         ' GroupBox1

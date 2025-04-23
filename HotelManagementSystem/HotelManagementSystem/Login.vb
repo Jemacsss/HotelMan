@@ -14,6 +14,10 @@ Public Class Login
             accountSet()
         End If
         txtUser.Focus()
+        Me.BackColor = ColorTranslator.FromHtml("#FAFAFA")
+        PanelHeader.BackColor = ColorTranslator.FromHtml("#007C91")
+
+        'LabelHeader.ForeColor = Color.White
     End Sub
 
     Private Sub btnlogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
@@ -71,4 +75,5 @@ Public Class Login
     Private Sub Form1_Closed(sender As Object, e As EventArgs) Handles Me.Closed
         Application.Exit()
     End Sub
+
 End Class

@@ -4,35 +4,38 @@ Imports System.Runtime.ConstrainedExecution
 
 Public Class RoomDetail
 
+    Public Property EditMode As Boolean = False
+    Public Property EditingRoomNum As String
+
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
         ' Validate required fields before proceeding
         If Not ValidateFields() Then Exit Sub
 
         Try
             If Not DbCon.OpenConnection Then Exit Sub
+
+            ' Save image to a folder
             Dim savePath As String = "C:\HotelRoomImages\" & IO.Path.GetFileName(txtImagePath.Text)
             If Not IO.Directory.Exists("C:\HotelRoomImages\") Then
                 IO.Directory.CreateDirectory("C:\HotelRoomImages\")
             End If
             IO.File.Copy(txtImagePath.Text, savePath, True)
 
+            Dim query As String
 
-            Dim query As String = "INSERT INTO RoomTbl
-            (roomNum, RoomFloor, RoomCap, pricePerNight, amenities, accesibilityFeature, ReservationStatus, RoomType, BedType, roomImagePath)
-            VALUES 
-            (@roomNum, @RoomFloor, @RoomCap, @pricePerNight, @amenities, @accesibilityFeature, @ReservationStatus, @RoomType, @BedType, @roomImagePath)"
+            If EditMode Then
+                query = "UPDATE RoomTbl SET RoomFloor=@RoomFloor, RoomCap=@RoomCap, pricePerNig=@pricePerNight, 
+                    amenities=@amenities, accesibilityFeature=@accesibilityFeature, ReservationStatus=@ReservationStatus, 
+                    RoomType=@RoomType, BedType=@BedType, roomImagePath=@ImagePath WHERE roomNum=@roomNum"
+            Else
+                query = "INSERT INTO RoomTbl (roomNum, RoomFloor, RoomCap, pricePerNight, amenities, accesibilityFeature, 
+                    ReservationStatus, RoomType, BedType, roomImagePath) 
+                    VALUES (@roomNum, @RoomFloor, @RoomCap, @pricePerNight, @amenities, @accesibilityFeature, 
+                    @ReservationStatus, @RoomType, @BedType, @ImagePath)"
+            End If
 
             Using cmd As New OleDbCommand(query, DbCon.oledbCnn1)
-                cmd.Parameters.AddWithValue("@roomNum", txtRoomNum.Text)
-                cmd.Parameters.AddWithValue("@RoomFloor", txtRoomFlr.Text)
-                cmd.Parameters.AddWithValue("@RoomCap", txtRoomCap.Text)
-                cmd.Parameters.AddWithValue("@pricePerNight", txtPrice.Text)
-                cmd.Parameters.AddWithValue("@RoomType", txtRoomType.Text)
-                cmd.Parameters.AddWithValue("@BedType", txtBedType.Text)
-                cmd.Parameters.AddWithValue("@reservationStatus", cbReserveStatus.Text)
-                cmd.Parameters.AddWithValue("@roomImagePath", savePath)
-
-
+                ' Collect amenities
                 Dim amenitiesList As New List(Of String)
                 If chkPetFriendly.Checked Then amenitiesList.Add("Pet-Friendly")
                 If chkSmoking.Checked Then amenitiesList.Add("Smoking")
@@ -46,15 +49,42 @@ Public Class RoomDetail
                 If chkAC.Checked Then amenitiesList.Add("Air conditioner")
                 If chkTVCable.Checked Then amenitiesList.Add("TV Cable")
                 If chkSeaview.Checked Then amenitiesList.Add("Sea View")
-                cmd.Parameters.AddWithValue("@amenities", String.Join(", ", amenitiesList))
 
+                ' Collect accessibility features
                 Dim accessibilityList As New List(Of String)
                 If chkWheelchair.Checked Then accessibilityList.Add("Wheelchair accessible")
                 If chkShowergrab.Checked Then accessibilityList.Add("Shower grab bars")
                 If chkHearinAid.Checked Then accessibilityList.Add("Hearing aid compatible")
                 If chkNone.Checked Then accessibilityList.Add("None")
-                cmd.Parameters.AddWithValue("@accesibilityFeature", String.Join(", ", accessibilityList))
 
+                ' Add parameters — ORDER MATTERS!
+                If EditMode Then
+                    ' Update Mode — match UPDATE query order
+                    cmd.Parameters.AddWithValue("@RoomFloor", txtRoomFlr.Text)
+                    cmd.Parameters.AddWithValue("@RoomCap", txtRoomCap.Text)
+                    cmd.Parameters.AddWithValue("@pricePerNight", txtPrice.Text)
+                    cmd.Parameters.AddWithValue("@amenities", String.Join(", ", amenitiesList))
+                    cmd.Parameters.AddWithValue("@accesibilityFeature", String.Join(", ", accessibilityList))
+                    cmd.Parameters.AddWithValue("@ReservationStatus", cbReserveStatus.Text)
+                    cmd.Parameters.AddWithValue("@RoomType", txtRoomType.Text)
+                    cmd.Parameters.AddWithValue("@BedType", cbBedType.Text)
+                    cmd.Parameters.AddWithValue("@ImagePath", savePath)
+                    cmd.Parameters.AddWithValue("@roomNum", txtRoomNum.Text)
+                Else
+                    ' Insert Mode — match INSERT query order
+                    cmd.Parameters.AddWithValue("@roomNum", txtRoomNum.Text)
+                    cmd.Parameters.AddWithValue("@RoomFloor", txtRoomFlr.Text)
+                    cmd.Parameters.AddWithValue("@RoomCap", txtRoomCap.Text)
+                    cmd.Parameters.AddWithValue("@pricePerNight", txtPrice.Text)
+                    cmd.Parameters.AddWithValue("@amenities", String.Join(", ", amenitiesList))
+                    cmd.Parameters.AddWithValue("@accesibilityFeature", String.Join(", ", accessibilityList))
+                    cmd.Parameters.AddWithValue("@ReservationStatus", cbReserveStatus.Text)
+                    cmd.Parameters.AddWithValue("@RoomType", txtRoomType.Text)
+                    cmd.Parameters.AddWithValue("@BedType", cbBedType.Text)
+                    cmd.Parameters.AddWithValue("@ImagePath", savePath)
+                End If
+
+                ' Execute query
                 cmd.ExecuteNonQuery()
             End Using
 
@@ -67,9 +97,13 @@ Public Class RoomDetail
             DbCon.CloseConnection1()
         End Try
 
+        If EditMode Then
+            txtRoomNum.ReadOnly = True
+        End If
         clear()
         uncheck()
     End Sub
+
 
     ' Validation Function
     Private Function ValidateFields() As Boolean
@@ -103,9 +137,9 @@ Public Class RoomDetail
             Return False
         End If
 
-        If String.IsNullOrWhiteSpace(txtBedType.Text) Then
+        If String.IsNullOrWhiteSpace(cbBedType.Text) Then
             MessageBox.Show("Please select a bed type.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            txtBedType.Focus()
+            cbBedType.Focus()
             Return False
         End If
 
@@ -125,7 +159,7 @@ Public Class RoomDetail
         txtRoomCap.Clear()
         txtPrice.Clear()
         txtRoomType.Clear()
-        txtBedType.Clear()
+        cbBedType.SelectedIndex = -1
         cbReserveStatus.SelectedIndex = -1
     End Sub
 
@@ -173,23 +207,61 @@ Public Class RoomDetail
 
     Private Sub RoomDetail_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtImagePath.Visible = False
-        LoadRoomDetails()
+
+        If EditMode AndAlso Not String.IsNullOrEmpty(EditingRoomNum) Then
+            LoadRoomDetails(EditingRoomNum)
+        End If
     End Sub
-    Private Sub LoadRoomDetails()
+    Private Sub LoadRoomDetails(roomNum As String)
         Try
             If Not DbCon.OpenConnection Then Exit Sub
 
             Dim query As String = "SELECT * FROM RoomTbl WHERE roomNum = @roomNum"
             Using cmd As New OleDbCommand(query, DbCon.oledbCnn1)
-                cmd.Parameters.AddWithValue("@roomNum", txtRoomNum.Text)
+                cmd.Parameters.AddWithValue("@roomNum", roomNum)
+
                 Using reader As OleDbDataReader = cmd.ExecuteReader()
                     If reader.Read() Then
-                        ' Load image if path exists
+                        ' Basic room details
+                        txtRoomNum.Text = reader("roomNum").ToString()
+                        txtRoomFlr.Text = reader("RoomFloor").ToString()
+                        txtRoomCap.Text = reader("RoomCap").ToString()
+                        txtPrice.Text = reader("pricePerNight").ToString()
+                        txtRoomType.Text = reader("RoomType").ToString()
+                        cbBedType.Text = reader("BedType").ToString()
+                        cbReserveStatus.Text = reader("ReservationStatus").ToString()
+
+                        ' Load amenities and check corresponding checkboxes
+                        Dim amenities As String = reader("amenities").ToString()
+                        Dim amenitiesList = amenities.Split(New String() {", "}, StringSplitOptions.None)
+
+                        chkPetFriendly.Checked = amenitiesList.Contains("Pet-Friendly")
+                        chkSmoking.Checked = amenitiesList.Contains("Smoking")
+                        chkWiFi.Checked = amenitiesList.Contains("Wi-Fi")
+                        chkMiniBar.Checked = amenitiesList.Contains("Mini-bar")
+                        chkCoffeeMaker.Checked = amenitiesList.Contains("Coffee maker")
+                        chkCityView.Checked = amenitiesList.Contains("City View")
+                        chkShower.Checked = amenitiesList.Contains("Shower")
+                        chkSofaBox.Checked = amenitiesList.Contains("Sofa box")
+                        chkRef.Checked = amenitiesList.Contains("Refrigerator")
+                        chkAC.Checked = amenitiesList.Contains("Air conditioner")
+                        chkTVCable.Checked = amenitiesList.Contains("TV Cable")
+                        chkSeaview.Checked = amenitiesList.Contains("Sea View")
+
+                        ' Load accessibility features
+                        Dim accessibility As String = reader("accesibilityFeature").ToString()
+                        Dim accessList = accessibility.Split(New String() {", "}, StringSplitOptions.None)
+
+                        chkWheelchair.Checked = accessList.Contains("Wheelchair accessible")
+                        chkShowergrab.Checked = accessList.Contains("Shower grab bars")
+                        chkHearinAid.Checked = accessList.Contains("Hearing aid compatible")
+                        chkNone.Checked = accessList.Contains("None")
+
+                        ' Load image if available
                         Dim imgPath As String = reader("roomImagePath").ToString()
                         If Not String.IsNullOrEmpty(imgPath) AndAlso IO.File.Exists(imgPath) Then
                             picRoomImage.Image = Image.FromFile(imgPath)
-                        Else
-                            picRoomImage.Image = Nothing ' Default if no image
+                            txtImagePath.Text = imgPath
                         End If
                     End If
                 End Using
@@ -203,4 +275,7 @@ Public Class RoomDetail
             DbCon.CloseConnection1()
         End Try
     End Sub
+
+
+
 End Class

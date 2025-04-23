@@ -19,8 +19,10 @@
     End Sub
 
     Private Sub btnManage_Click(sender As Object, e As EventArgs) Handles btnManage.Click
-        Dim roomfrm As New RoomDetail
-        roomfrm.Show()
+        Dim roomcheckfrm As New Roomcheck
+        roomcheckfrm.Show()
+        'Dim roomfrm As New RoomDetail
+        'roomfrm.Show()
         Me.Close()
     End Sub
 

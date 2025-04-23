@@ -80,7 +80,7 @@ Public Class BookingFrm
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnback.Click
-        Frontdesk.Show()
+        Manager.Show()
         Me.Hide()
     End Sub
 
